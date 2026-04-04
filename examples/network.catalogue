@@ -1,0 +1,155 @@
+serviceCatalogue
+
+Store & Site Enablement
+	description: Retail sites, distribution centres, and temporary locations are network-ready on time, enabling trading from day one
+	New Site Connectivity
+		description: Provides a fully commissioned and tested network for a site that does not yet exist on the estate
+		Standard Store Network
+			out: A new retail store is trading-ready from day one — WAN circuit, switching, Wi-Fi, and POS VLAN all commissioned, tested, and handed over
+			slo: 12 weeks from confirmed site details
+		Distribution Centre Network
+			out: A new distribution centre or fulfilment hub is operational from day one, with a network sized and tested for WMS, CCTV, and logistics systems
+			slo: 16 weeks from confirmed site details
+		Pop-Up & Temporary Site Network
+			out: A seasonal or temporary site is connected and trading within two weeks, with the network cleanly decommissioned at end of use
+			slo: 2 weeks from request
+	Site Refresh & Upgrade
+		description: Replaces or upgrades network equipment at existing sites without disrupting trading
+		Store Network Hardware Refresh
+			out: A store keeps trading without interruption while aging network infrastructure is replaced like-for-like — no capability change, no downtime
+			slo: Timelines determined based on complexity
+		Store Wi-Fi Upgrade
+			out: Colleague devices and customer-facing services get reliable, high-capacity Wi-Fi coverage across the store — measurable improvement in signal and throughput
+			slo: Timelines determined based on complexity
+		Store Network Expansion
+			out: A refit or new service area is network-ready in time for go-live, with the ports, APs, and VLANs needed to support it
+			slo: Timelines determined based on complexity
+
+Secure & Controlled Access
+	description: The right people and systems can reach what they need, and nothing else — protecting the estate from unauthorised access without creating friction for legitimate users
+	Remote & Third-Party Access
+		description: Allows authorised users and suppliers to access internal systems securely from outside the corporate network
+		Colleague Remote Access
+			out: Colleagues working remotely or travelling can access the systems they need securely, with no manual setup required on their part
+			slo: 2 business days
+		Supplier & Partner Access
+			out: Approved suppliers and partners can access only the systems they need, for only as long as they need them — with full audit trail
+			slo: 5 business days
+		Break-Fix Engineer Access
+			out: Approved field engineers get site access on the day they need it, scoped to that visit only — no standing access remains after they leave
+			slo: Same day (with change approval)
+	Network Segmentation
+		description: Isolates systems, users, and data flows to limit the blast radius of an incident and meet compliance obligations (PCI DSS, GDPR)
+		PCI Zone Segmentation
+			out: A cardholder data environment meets PCI DSS isolation requirements, with documented evidence ready for auditors
+			slo: 4 weeks
+		New Application VLAN
+			out: A new application or system joins the estate in its own controlled segment, contained from day one with a defined access policy
+			slo: 5 business days
+		Guest & Customer Wi-Fi Separation
+			out: Customers get usable Wi-Fi and operational systems stay protected — traffic is isolated, bandwidth is controlled, and policy is enforced
+			slo: 3 weeks
+	Network Access Control
+		description: Ensures only known, compliant devices can connect to the network
+		Device Onboarding to NAC
+			out: A new device type or fleet can connect to the network with the right level of access — and unauthorised devices are blocked
+			slo: 5 business days
+		NAC Policy Review
+			out: A network access rules stay current — reviewed against the latest device estate and threat picture so the right things are allowed and the wrong things are not
+			slo: 3 weeks
+
+Application & Cloud Connectivity
+	description: Business-critical applications and cloud platforms are reachable with the performance and reliability they need to operate effectively
+	Data Centre & Internal Application Connectivity
+		description: Ensures critical business systems hosted on-premises are accessible from stores, offices, and warehouses
+		Application Path to Data Centre
+			out: Users and systems at A sites can reliably reach the on-premises application they depend on, with a tested path and agreed traffic policy in place
+			slo: 3 weeks
+		Inter-Site Private Link
+			out: Latency-sensitive workloads between A sites run without delay — a dedicated, low-latency path is in place and tested
+			slo: 4 weeks
+	Cloud On-Ramp
+		description: Provides performant, secure, and cost-efficient connectivity between the corporate estate and public cloud platforms
+		Cloud Express Connect
+			out: Sensitive or high-volume cloud workloads run over a private connection — not the public internet — with consistent performance and reduced exposure
+			slo: 8 weeks
+		Cloud Traffic Policy Update
+			out: Cloud connectivity stays aligned with workloads — updated quickly when a new application, region, or security requirement changes what’s needed
+			slo: 5 business days
+	WAN & SD-WAN Management
+		description: Manages the wide area network that ties the estate together, including circuit and policy management
+		Application Traffic Prioritisation
+			out: Business-critical application gets the bandwidth and priority it needs across the WAN, so it performs reliably even under load
+			slo: 5 business days
+		WAN Circuit Upgrade
+			out: A site has the bandwidth it needs to operate without congestion — uplift is delivered end-to-end, with provider coordination handled for you
+			slo: 8 weeks
+		SD-WAN Policy Change
+			out: Traffic across sites routes and fails over the way applications need it to — updated quickly when requirements change
+			slo: 3 business days
+
+Reliability & Resilience
+	description: The network does not become a single point of failure for trading operations. When faults occur, impact is contained and recovery is fast
+	Resilient Design
+		description: Removes single points of failure from the network for sites or systems where downtime has a direct trading impact
+		Dual-Path WAN for Critical Sites
+			out: A single WAN failure no longer takes a site offline — a second diverse circuit cuts in automatically
+			slo: 10 weeks
+		Resilient Core Switch Design
+			out: A single switch failure no longer causes a site-wide outage — core switching is redesigned for redundancy
+			slo: 8 weeks
+	Health Assurance
+		description: Proactively identifies degradation before it becomes an outage
+		Network Device Health Check
+			out: You get a clear, prioritised view of which devices are at risk and what to do about them — before they cause an outage
+			slo: 2 weeks
+		Proactive Fault Alerting
+			out: Degradation at a site is detected and acted on before you raise a ticket — the Network team knows first
+			slo: 3 business days
+
+Network Visibility & Insight
+	description: Stakeholders and Network engineers have the information they need to make good decisions about capacity, performance, and risk
+	Operational Monitoring
+		description: Real-time and near-real-time views of network health across the estate
+		Estate Network Health Dashboard
+			out: You have a live, always-on view of network health across all monitored sites — availability, faults, and key indicators at a glance
+			slo: Available on request — 1 week to onboard
+		Site-Level Performance View
+			out: You can see exactly how a specific site is performing — WAN utilisation, latency, and device health in one view
+			slo: 3 business days to configure
+	Capacity & Planning Insight
+		description: Data to support investment decisions and prevent saturation before it impacts users
+		WAN Capacity Report
+			out: You know which sites are approaching capacity before users feel the impact — a clear, prioritised list ready for action
+			slo: 1 week
+		Monthly Capacity Digest
+			out: Stakeholders receive a monthly view of estate-wide capacity trends — the insight needed to plan ahead and avoid saturation
+			slo: Standing delivery — onboard in 1 week
+		Pre-Project Capacity Assessment
+			out: Before a project commits to a design, you know whether the network can support it — gaps and risks identified early when they are cheapest to fix
+			slo: 1 week from project brief
+
+Managed Change & Delivery
+	description: Network changes are delivered safely, at pace, and without unplanned impact to trading operations
+	Standard Network Changes
+		description: Routine, low-risk changes with a predictable scope and process
+		Standard Configuration Change
+			out: A routine network change is applied safely and on time, with no disruption to operations
+			slo: 2 business days
+		Expedited Configuration Change
+			out: A time-critical change is delivered the same day when it cannot wait for the standard window
+			slo: Same day (with approval)
+		Firewall Rule Change
+			out: A required firewall rule is in place, reviewed for security risk and applied through proper change control
+			slo: 5 business days
+	Project Network Delivery
+		description: Design and delivery of network capability as part of a broader business or IT project
+		Network Design & Advisory
+			out: A project has the network design it needs to proceed — documented, risk-assessed, and costed before build begins
+			slo: Subject to project timeline — engage at initiation
+		Network Project Delivery
+			out: A project’s network scope is delivered end-to-end — from design through commissioning to handover — so you can go live with confidence
+			slo: Subject to project timeline
+		Post-Implementation Review
+			out: You get a clear verdict on whether the network change delivered what was promised, with lessons captured to improve future delivery
+			slo: 2 weeks after go-live

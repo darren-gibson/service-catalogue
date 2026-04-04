@@ -1,0 +1,20 @@
+serviceCatalogue
+
+# Hierarchy
+Developer Enablement
+	Environment Management
+		Non-Production Environment
+			in: Team code and environment size
+			out: Ready-to-use non-production environment via \#gold profile
+		Production Access Request
+			out: Approved production access
+
+# Consumers
+Consumer: Product Team
+Consumer: Engineering Teams # Internal users
+Consumer: Delivery Partner
+
+# Uses
+Product Team --> Non-Production Environment
+Engineering Teams --> Non-Production Environment
+Delivery Partner --> Production Access Request # External consumption
